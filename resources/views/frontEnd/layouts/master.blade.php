@@ -49,7 +49,7 @@
                                     <li class="for_order">
                                         <p>
                                             <a href="">
-                                            <i class="fa-regular fa-circle-user"></i>
+                                                <i class="fa-regular fa-circle-user"></i>
                                             </a>
                                         </p>
                                     </li>
@@ -72,6 +72,72 @@
                                 </ul>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="">Gatgets <i class="fa-solid fa-angle-down cat_down"></i></a>
+                                    <div class="mega_menu">
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    Airpods
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    Headphone
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    Speaker
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    Neckband
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    LCD Tab
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href=""
+                                                    class="cat-title">
+                                                    Trimmer
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="">Tiles</a></li>
+                                <li><a href=""></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -104,6 +170,6 @@
     <script src="{{asset('public/frontend')}}/js/script.js"></script>
     <script src="{{asset('public/frontend')}}/js/jquery.meanmenu.js"></script>
     <script>
-</body>
+</body >
 
-</html>
+</html >
