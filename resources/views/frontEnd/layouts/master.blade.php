@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UTurnX-Vendor-Shope</title>
+    <link rel="stylesheet" href="{{ asset('public/frontEnd/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/frontEnd/css/animate.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/frontEnd/css/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/frontEnd/css/owl.carousel.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('public/frontEnd/css/style.css') }}" />
+
 </head>
+
 <body>
+    <!-- HEADER SECTION-->
+
+    <header class="main-header">
+        <div class="logo-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="logo-header">
+                            <div class="main-logo">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="main-search">
+                                <form action="https://sellpixer.websolutionit.com/search">
+                                    <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-search">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                        </svg></button>
+                                    <input type="text" placeholder="Search Product..."
+                                        class="msearch_keyword msearch_click" name="keyword">
+                                </form>
+                                <div class="search_result"></div>
+                            </div>
+                            <div class="header-list-items">
+                                <ul>
+                                    <li class="track_btn">
+                                        <a href=""> <i class="fa fa-truck"></i></a>
+                                    </li>
+                                    <li class="for_order">
+                                        <p>
+                                            <a href="">
+                                                <i class="fa-regular fa-user"></i>
+                                            </a>
+                                        </p>
+                                    </li>
+
+                                    <li class="cart-dialog" id="cart-qty">
+                                        <a href="">
+                                            <p class="margin-shopping">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                <span>0</span>
+                                            </p>
+                                        </a>
+                                        <div class="cshort-summary">
+                                            <ul>
+                                            </ul>
+                                            <p><strong>SubTotal : ৳0.00</strong></p>
+                                            <a href="" class="go_cart">Process To
+                                                Order </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
 
@@ -20,7 +92,8 @@
     <!-- MASTER BODY WORK END -->
 
 
-    
-    
+    <!-- FOOTER SECTION -->
+
 </body>
+
 </html>
