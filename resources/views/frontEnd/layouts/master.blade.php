@@ -24,11 +24,11 @@
                         <div class="logo-header">
                             <div class="main-logo">
                                 <a href="">
-                                    <img src="" alt="">
+                                    <img src="{{ asset('public/frontEnd')}}/images/logo.png " alt="">
                                 </a>
                             </div>
                             <div class="main-search">
-                                <form action="https://sellpixer.websolutionit.com/search">
+                                <form action="">
                                     <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round"
@@ -49,7 +49,7 @@
                                     <li class="for_order">
                                         <p>
                                             <a href="">
-                                                <i class="fa-regular fa-user"></i>
+                                            <i class="fa-regular fa-circle-user"></i>
                                             </a>
                                         </p>
                                     </li>
@@ -90,10 +90,20 @@
         </div>
     </section>
     <!-- MASTER BODY WORK END -->
-
-
     <!-- FOOTER SECTION -->
 
+
+
+
+
+
+    <script src="{{asset('public/frontend')}}/js/jquery-3.7.1.min.js"></script>
+    <script src="{{asset('public/frontend')}}/js/owl.carousel.min.js"></script>
+    <script src="{{asset('public/frontend')}}/js/all.min.js"></script>
+    <script src="{{asset('public/frontend')}}/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('public/frontend')}}/js/script.js"></script>
+    <script src="{{asset('public/frontend')}}/js/jquery.meanmenu.js"></script>
+    <script>
 </body>
 
 </html>
