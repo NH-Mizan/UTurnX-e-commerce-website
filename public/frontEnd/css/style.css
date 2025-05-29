@@ -10,9 +10,13 @@ a {
     padding: 0;
     border: 0;
 }
+body{
+    background-color: #f7f7f7;
+}
 
 :root {
-    --background-color: #fff;
+    /* --background-color: #f7f7f7; */
+    --background-color: #ffff;
     --primary-color: #ff3031;
     --secondary-color: #0593b6;
     --secondary-color-extra: #153e58;
@@ -290,7 +294,7 @@ header.main-header {
 /*=========== HEADER SECTION CSS END== =======*/
 .footer-top {
     padding: 50px 0;
-    background: #f7f7f7;
+    background: var(--background-color);
 }
 .footer-about {
     padding-right: 70px;
@@ -357,3 +361,87 @@ header.main-header {
 
 
 /*=========== FOOTER SECTION CSS END== =======*/
+
+.slider-section{
+    margin-top: 15px;
+}
+/*=========== BANNER SLIDER SECTION CSS END== =======*/
+
+
+.category-card {
+
+    height: 250px;
+    box-shadow: 0 1px 3px 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    position: relative;
+    transition: all 0.7s;
+    overflow: hidden;
+    background-color: #ffff;
+}
+
+.category-card img {
+
+    height: 150px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+
+}
+
+.category-card::after {
+    content: '';
+    background-color: var(--primary-color);
+    box-shadow: 0 0px 6px 4px #ffa5a6;
+    width: 100%;
+    height: 2px;
+    top: 400px;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+.category-card:hover::after {
+    top: 0;
+    transition: all 0.7s;
+}
+
+
+
+.category-title {
+    background: linear-gradient(-25deg, #ff08de 0%, #00c3ff 100%);
+    color: transparent !important;
+    background-clip: text;
+    text-align: center;
+}
+
+.category-slider button.owl-prev,
+.category-slider button.owl-next {
+    position: absolute;
+    top: 40%;
+    font-weight: bold !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px !important;
+}
+
+.category-slider button.owl-prev:hover,
+.category-slider button.owl-next:hover {
+    background-color: var(--primary-color) !important;
+}
+
+.category-slider button.owl-prev {
+    left: 0px !important;
+}
+
+.category-slider button.owl-next {
+    right: 0px !important;
+
+
+}
+/*=========== CATEGORY SECTION CSS END== =======*/

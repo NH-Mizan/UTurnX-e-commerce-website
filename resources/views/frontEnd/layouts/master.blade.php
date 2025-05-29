@@ -161,8 +161,8 @@
                         <img src="{{ asset('public/frontEnd')}}/images/logo.png " alt="">
                         </a>
                         <p>661, West Shewrapara, Mirpur, Dhaka&nbsp;-1216</p>
-                        <p><a href="tel:01718643800" class="footer-hotlint">01718643800</a></p>
-                        <p><a href="mailto:info@wholesalesbd.com" class="footer-hotlint">info@wholesalesbd.com</a></p>
+                        <p><a href="tel:0" class="footer-hotlint">01846494272</a></p>
+                        <p><a href="mailto:" class="footer-hotlint">info@uturnx.com</a></p>
                     </div>
                 </div>
                 <!-- col end -->
